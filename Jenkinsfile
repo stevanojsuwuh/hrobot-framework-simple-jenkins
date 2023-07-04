@@ -1,9 +1,9 @@
 pipeline {
     agent any
     environment {
-        GIT_URL = 'git@github.com:jutionck/robot-framework-simple-jenkins.git'
-        BRANCH = 'main'
-        ROBOT = '/Library/Frameworks/Python.framework/Versions/3.11/bin/robot'
+        GIT_URL = 'git@github.com:stevanojsuwuh/hrobot-framework-simple-jenkins.git'
+        BRANCH = 'master'
+        ROBOT = '/home/enigma/anaconda3/bin/robot'
         CHANNEL = '#training'
     }
     stages {
